@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="24.835">
+    <testcase classname="Login" name="Verify User Login with valid user credentials 1" time="13.37">
+        <system-out><![CDATA[Given Already registered user access the url................................passed
+When User clicks on login link..............................................passed
+And User enters username to the username box................................passed
+And User enters userpassword to the userpassword box........................passed
+And User clicks on the login button.........................................passed
+Then User navigate to home page.............................................passed
+Then Click on Logout........................................................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="Verify User Login with valid user credentials 2" time="11.173">
+        <system-out><![CDATA[Given Already registered user access the url................................passed
+When User clicks on login link..............................................passed
+And User enters username to the username box................................passed
+And User enters userpassword to the userpassword box........................passed
+And User clicks on the login button.........................................passed
+Then User navigate to home page.............................................passed
+Then Click on Logout........................................................passed
+Then Close Browser..........................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

@@ -1,0 +1,252 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-14T17:45:09.457Z",
+        "line": 18,
+        "name": "Verify User Login with valid user credentials 1",
+        "description": "",
+        "id": "login;verify-user-login-with-valid-user-credentials-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8394041000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Already registered user access the url",
+            "match": {
+              "location": "step_definitions.LoginPage.openURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 549532900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User clicks on login link",
+            "match": {
+              "location": "step_definitions.LoginPage.clickLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 146599000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters username to the username box",
+            "match": {
+              "location": "step_definitions.LoginPage.enterUserEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105413700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters userpassword to the userpassword box",
+            "match": {
+              "location": "step_definitions.LoginPage.enterUserPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2473597200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "step_definitions.LoginPage.ClickLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1995900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User navigate to home page",
+            "match": {
+              "location": "step_definitions.LoginPage.userHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 772914300,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click on Logout",
+            "match": {
+              "location": "step_definitions.LoginPage.click_on_logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 823777800,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Close Browser",
+            "match": {
+              "location": "step_definitions.LoginPage.Close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-14T17:45:22.849Z",
+        "line": 29,
+        "name": "Verify User Login with valid user credentials 2",
+        "description": "",
+        "id": "login;verify-user-login-with-valid-user-credentials-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6586098000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Already registered user access the url",
+            "match": {
+              "location": "step_definitions.LoginPage.openURL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 823302900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User clicks on login link",
+            "match": {
+              "location": "step_definitions.LoginPage.clickLoginLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123782300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User enters username to the username box",
+            "match": {
+              "location": "step_definitions.LoginPage.enterUserEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171536700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User enters userpassword to the userpassword box",
+            "match": {
+              "location": "step_definitions.LoginPage.enterUserPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 804719800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks on the login button",
+            "match": {
+              "location": "step_definitions.LoginPage.ClickLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 988700,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User navigate to home page",
+            "match": {
+              "location": "step_definitions.LoginPage.userHomePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 826037900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click on Logout",
+            "match": {
+              "location": "step_definitions.LoginPage.click_on_logout()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1829977000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Close Browser",
+            "match": {
+              "location": "step_definitions.LoginPage.Close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
