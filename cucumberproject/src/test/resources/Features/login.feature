@@ -1,4 +1,4 @@
-#Author: Heema
+#Author: Heema, Preethi, Sridevi
 #Date: 02/14/2021
 #Description: Regression Suite
 Feature: Login

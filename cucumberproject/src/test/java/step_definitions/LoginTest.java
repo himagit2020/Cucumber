@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.*;
 
-public class LoginPage {
+public class LoginTest {
 	WebDriver dr;
 
 	@Given("Already registered user access the url")
